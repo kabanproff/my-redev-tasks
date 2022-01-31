@@ -1,7 +1,7 @@
 import './App.css';
 import Header from './components/Header/Header';
 import Footer from './components/Footer/Footer';
-import Nav from './components/Nav/Nav';
+import Navbar from './components/Navbar/Navbar';
 
 
 
@@ -10,7 +10,7 @@ function App() {
 	return (
 		<div className={'app-wrapper'}>
 			<Header />
-			<Nav />
+			<Navbar />
 			<main className={'mainContent'}>
 				app-mainContent
 			</main>
