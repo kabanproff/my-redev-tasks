@@ -4,8 +4,9 @@ import s from './Item.module.css';
 class Item extends React.Component {
 	render() {
 		return (
-			// console.log({this.props.itemText});
-			<li className={s.li}>{this.props.itemText}</li>
+			<li className={this.props.className ? s.li + ' ' + this.props.className : s.li}>
+				{this.props.itemText}
+			</li>
 		)
 	}
 }

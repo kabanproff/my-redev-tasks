@@ -2,3 +2,7 @@
 	list-style-type: disclosure-closed;
 	padding-left: 25px;
 }
+
+.active {
+	background-color: rgb(224 203 203);
+}
