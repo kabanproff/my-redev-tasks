@@ -122,7 +122,7 @@ class Code extends React.Component {
 export default Code;
 `;
 
-const Task1 = [
+let Task1 = [
 	task_1_items,
 	task_2_items,
 	task_3_items,
@@ -132,5 +132,9 @@ const Task1 = [
 	task_7_items,
 	task_8_items,
 ]
+
+Task1 = Task1.map((i, d) => {
+	return <pre key={Math.trunc(Date.now() * d / 10000)}><code>{i}</code></pre>
+})
 
 export default Task1;
