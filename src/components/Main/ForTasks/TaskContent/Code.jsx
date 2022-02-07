@@ -1,7 +1,9 @@
 import React from "react"
 import { Route, Routes } from "react-router-dom"
+import UserStack from "./TaskItems/Stack_Class"
 import Task1 from "./TaskItems/Task1"
 import { User, codText } from "./TaskItems/Task2-User"
+import UseMemoReactMemo from "./TaskItems/UseMemo&ReactMemo"
 
 function sayHi() {
 	return 'Hii'
@@ -23,6 +25,8 @@ class Code extends React.Component {
 				<Route path='/Task2/' element={<div><User name={'Artyom'} age={35} hi={sayHi()} bye={sayBye} isAdmin from={from} />
 					<div><pre><code>{codText}</code></pre></div></div>
 				}></Route>
+				<Route path='/Task3/' element={<UserStack name={'Kola'} age={23} />}></Route>
+				<Route path='/Task4/' element={<UseMemoReactMemo />}></Route>
 			</Routes>
 		)
 	}

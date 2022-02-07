@@ -7,6 +7,8 @@ const Items = () => {
 		<ul className={s.ul}>
 			<Item itemText={'Task 1'} />
 			<Item itemText={'Task 2'} />
+			<Item itemText={'Task 3'} />
+			<Item itemText={'Task 4'} />
 		</ul>
 	)
 }
