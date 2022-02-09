@@ -32,7 +32,7 @@ class LifeCycleAxios extends React.Component {
 				<img src={avatar_url} alt="Я" />
 				<div>My name is {name}</div>
 				<div>I'm from in {location}</div>
-				<div><a href={html_url} target='_blank'> My GIT</a></div>
+				<div><a href={html_url} target='_blank' rel="noreferrer"> My GIT</a></div>
 			</div>
 		)
 	}
