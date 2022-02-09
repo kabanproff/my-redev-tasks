@@ -9,6 +9,8 @@ const Items = () => {
 			<Item itemText={'Task 2'} />
 			<Item itemText={'Task 3'} />
 			<Item itemText={'Task 4'} />
+			<Item itemText={'Task 5'} />
+			<Item itemText={'Task 6 LifeCycleAxios'} />
 		</ul>
 	)
 }

@@ -1,0 +1,8 @@
+.list {
+	height: 130px;
+	overflow-y: auto;
+}
+button {
+	display: block;
+	width: 100%;
+}
