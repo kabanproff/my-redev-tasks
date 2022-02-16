@@ -11,6 +11,7 @@ const Items = () => {
 			<Item itemText={'Task 4'} />
 			<Item itemText={'Task 5'} />
 			<Item itemText={'Task 6 LifeCycleAxios'} />
+			<Item itemText={'Key'} />
 		</ul>
 	)
 }

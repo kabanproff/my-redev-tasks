@@ -1,5 +1,6 @@
 import React from "react"
 import { Route, Routes } from "react-router-dom"
+import Key from "./TaskItems/Key"
 import LifeCycleAxios from "./TaskItems/LifeCycleAxios/LifeCycleAxios"
 import Refs from "./TaskItems/Refs"
 import UserStack from "./TaskItems/Stack_Class"
@@ -32,6 +33,7 @@ class Code extends React.Component {
 				<Route path='/Task4/' element={<UseMemoReactMemo />}></Route>
 				<Route path='/Task5/' element={<Refs />}></Route>
 				<Route path='/Task6LifeCycleAxios/' element={<LifeCycleAxios />}></Route>
+				<Route path='/Key' element={<Key />}></Route>
 			</Routes>
 		)
 	}
