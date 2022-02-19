@@ -1,6 +1,6 @@
 .footer {
-	grid-row: 3/4;
 	grid-column: 1/3;
 	text-align: center;
 	background-color: #20232a;
+	min-height: 50px;
 }

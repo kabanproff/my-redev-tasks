@@ -14,3 +14,8 @@ body {
 	grid-template-rows: 50px 1fr 50px;
 	min-height: 100vh;
 }
+@media (max-width: 768px) {
+	.app-wrapper {
+		display: block;
+	}
+}

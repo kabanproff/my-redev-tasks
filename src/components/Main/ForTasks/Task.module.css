@@ -1,9 +1,8 @@
-.wrapper {
-}
 .wrapper pre {
 	background: rgb(40, 44, 52);
 	border-radius: 10px;
 	color: rgb(197, 165, 197);
 	padding: 10px;
 	max-width: 1000px;
+	overflow: auto;
 }
