@@ -5,6 +5,7 @@ import LifeCycleAxios from "./TaskItems/LifeCycleAxios/LifeCycleAxios"
 import Refs from "./TaskItems/Refs"
 import RequestGet from "./TaskItems/Requests/RequestGet"
 import RequestPost from "./TaskItems/Requests/RequestPost"
+import Routing from "./TaskItems/Routing"
 import UserStack from "./TaskItems/Stack_Class"
 import Task1 from "./TaskItems/Task1"
 import { User, codText } from "./TaskItems/Task2-User"
@@ -38,6 +39,7 @@ class Code extends React.Component {
 				<Route path='/Key' element={<Key />}></Route>
 				<Route path='/RequestGet' element={<RequestGet />}></Route>
 				<Route path='/RequestPost' element={<RequestPost />}></Route>
+				<Route path='/Routing/*' element={<Routing />}></Route>
 			</Routes>
 		)
 	}
