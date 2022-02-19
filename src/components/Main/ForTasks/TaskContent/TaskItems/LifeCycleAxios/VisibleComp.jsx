@@ -12,7 +12,7 @@ const VisibleComp = ({ reCou, oldCou }) => {
 
 		}
 	}
-		, [])
+		, [count])
 
 	useEffect(() => {
 		console.log('--VisCompUpdate--')

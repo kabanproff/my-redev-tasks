@@ -22,7 +22,7 @@ const Key = () => {
 	return (
 		<div>
 			<ul>
-				{console.log(numbers), numbers.map((i, d) => {
+				{numbers.map((i, d) => {
 					return <li key={`${d}`}>{i}</li>
 				})}
 			</ul>
